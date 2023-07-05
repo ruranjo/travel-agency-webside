@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import hero from '../assets/hero.png'
 import styled from 'styled-components'
+import Button  from './Button'
 
 export default function Home() {
     const [value, setValue] = useState("$5000 - $10000")
@@ -13,7 +14,7 @@ export default function Home() {
             <div className="info">
                 <h1>It's Time To </h1>
                 <h1>Explore The World</h1>
-                <button>Plan Your Trip</button>
+                <Button  text={"Plan Your Trip"} />
             </div>
         </div>
         <div className="planner">
@@ -40,7 +41,7 @@ export default function Home() {
                     }}/>
                 </div>
                 <div className="row">
-                    <button>Discover More</button>
+                    <Button  text={"Discover More"} />
                 </div>
             </form>
         </div>
