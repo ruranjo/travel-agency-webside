@@ -1,5 +1,5 @@
 
-import style from 'styled-components'
+import styled from 'styled-components'
 import logo from '../assets/logo.png'
 import { BsPerson } from "react-icons/bs";
 import { IoSearchOutline } from "react-icons/io5";
@@ -48,7 +48,7 @@ export default function Navbar() {
   )
 }
 
-const Nav = style.nav`
+const Nav = styled.nav`
     display:flex;
     justify-content: space-between;
     align-items:center;
