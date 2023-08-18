@@ -24,7 +24,7 @@ const data = [
 
 export default function Offers() {
   return (
-    <Section id="Offers">
+    <Section id="Offer">
         <div className="image">
             <img src={lighthouse} alt="lighthouse" />
         </div>
